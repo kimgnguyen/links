@@ -3,22 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI";
-    color: #fff;
-    font-size: 12px
-}
-
-.links-wrapper div,body {
-    display: flex;
-    flex-direction: column
+    color: white;
+    font-size: 12px;
 }
 
 body {
     height: 100vh;
     width: 100vw;
     background-color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute
+    position: absolute;
+
 }
 
 h1 {
@@ -26,19 +24,21 @@ h1 {
     font-weight: 600;
     margin-bottom: 10px;
     color: inherit;
-    text-align: left
+    text-align: left;
 }
 
 .links-wrapper {
-    display: flex
+    display: flex;
 }
 
 .links-wrapper div {
-    margin-right: 75px
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
 }
 
 .links-wrapper div:last-child {
-    margin-right: 0
+    margin-right: 0px;
 }
 
 .links-wrapper div a.mid {
@@ -48,14 +48,14 @@ h1 {
     opacity: 1;
     margin-bottom: 5px;
     font-size: small;
-    position: relative
+    position: relative;
 }
 
 .links-wrapper div a.mid:hover {
-    color: #fff;
+    color: white;
     opacity: 1;
     cursor: default;
-    transition: all .3s ease-in-out 0s
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid::before {
@@ -65,13 +65,14 @@ h1 {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #ff69b4;
+    background-color: hotpink;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all .3s ease-in-out 0s
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid:hover::before {
     visibility: visible;
-    transform: scaleX(.5)
+    transform: scaleX(0.5);
+
 }
