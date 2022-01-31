@@ -19,6 +19,7 @@
 <a class=mid href=https://lag.wtf>global latency</a>
 <a class=mid href=https://mempool.space/>mempool</a>
 <a class=mid href=https://fast.com/#>speedtest</a>
+<a class=mid href=https://setyourwatchby.netlify.app>time</a>
 <a class=mid href=https://darksky.net/forecast/46.347,6.048/ca12/en>weather</a>
 </div>
 <div class=server-links>
@@ -34,7 +35,7 @@
 <a class=mid href=http://debutility:9090>cockpit</a>
 </div>
 <div class=network-links>
-<a class=mid href=http://172.16.1.1/>gateway</a>
+<a class=mid href=http://172.16.1.1/>ekjait4</a>
 <a class=mid href=http://ekjait8.ekjait>ekjait8</a>
 <a class=mid href=http://ekjait16.ekjait>ekjait16</a>
 <a class=mid href=http://EAP225-Outdoor-60-32-B1-12-9F-A2.ekjait>ekjaitAP_0</a>
