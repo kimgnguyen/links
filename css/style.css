@@ -31,10 +31,12 @@ h1 {
 
 .links-wrapper {
     display: flex;
+    flex-wrap: wrap; /* Allow divs to wrap to the next line on smaller screens */
 }
 
 .links-wrapper div {
     margin-right: 75px;
+    margin-bottom: 15px; /* Add some margin between divs */
 }
 
 .links-wrapper div:last-child {
@@ -85,4 +87,11 @@ h1 {
     background-color: #493a3a;
     color: inherit;
     text-align: center;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .links-wrapper div {
+        margin-right: 0; /* Remove right margin on smaller screens */
+    }
 }
