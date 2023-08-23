@@ -4,12 +4,12 @@
     box-sizing: border-box;
     font-family: "Segoe UI";
     color: #fff;
-    font-size: 12px
+    font-size: 12px;
 }
 
-.links-wrapper div,body,footer {
+.links-wrapper div, body, footer {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     background-color: #2f2f2f;
     justify-content: center;
     align-items: center;
-    position: absolute
+    position: absolute;
 }
 
 h1 {
@@ -26,19 +26,19 @@ h1 {
     font-weight: 600;
     margin-bottom: 10px;
     color: inherit;
-    text-align: left
+    text-align: left;
 }
 
 .links-wrapper {
-    display: flex
+    display: flex;
 }
 
 .links-wrapper div {
-    margin-right: 75px
+    margin-right: 75px;
 }
 
 .links-wrapper div:last-child {
-    margin-right: 0
+    margin-right: 0;
 }
 
 .links-wrapper div a.mid {
@@ -48,14 +48,14 @@ h1 {
     opacity: 1;
     margin-bottom: 5px;
     font-size: small;
-    position: relative
+    position: relative;
 }
 
 .links-wrapper div a.mid:hover {
     color: #fff;
     opacity: 1;
     cursor: default;
-    transition: all .3s ease-in-out 0s
+    transition: all .3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid::before {
@@ -68,19 +68,21 @@ h1 {
     background-color: #ff69b4;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all .3s ease-in-out 0s
+    transition: all .3s ease-in-out 0s;
 }
 
 .links-wrapper div a.mid:hover::before {
     visibility: visible;
-    transform: scaleX(.5)
+    transform: scaleX(.5);
 }
+
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 25px;
-  background-color: #493a3a;
-  color: inherit;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #493a3a;
+    color: inherit;
+    text-align: center;
+}
