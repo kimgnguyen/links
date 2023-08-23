@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Links</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .mid {
+      margin-right: 10px;
+    }
+  </style>
 </head>
 <body>
   <div class="links-wrapper">
@@ -57,5 +62,20 @@
       <a class="mid" href="https://www.simbrief.com/system/dispatch.php">simbrief</a>
     </div>
   </div>
+
+  <footer>
+    <p>Current Time: <span id="clock"></span></p>
+  </footer>
+
+  <script>
+    function updateTime() {
+        const now = new Date();
+        const clockElement = document.getElementById('clock');
+        clockElement.innerHTML = now.toLocaleTimeString();
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();
+  </script>
 </body>
 </html>
